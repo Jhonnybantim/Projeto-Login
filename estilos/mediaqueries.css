@@ -12,6 +12,7 @@
 
     section#login {
         width: 80vw;
+        height: 290px;
 
     }
 
@@ -26,6 +27,10 @@
         float: right;
         width: 70%;
     }
+    div.campo >input{ 
+        width: 90%;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -35,6 +40,10 @@
     }
     section#login{ 
         width: 950px;
+        height: 380px;
+    }
+    div.campo >input{ 
+        width: 90%;
     }
 
     section#login>div#imagem {
