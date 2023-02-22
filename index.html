@@ -8,6 +8,7 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 </head>
@@ -22,7 +23,27 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente . Faça login para acessar sua conta e poder fazer as configurações no seu
                     ambiente.</p>
-                <form action="" method="post"></form>
+                <form action="" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <i id="burguer" class="material-icons"> person </i>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email">                          
+                        <label for="ilogin">login</label>
+                    </div>
+
+                    <div class="campo">
+                        <i id="burguer" class="material-icons"> vpn_key </i>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha"
+                            autocomplete="current-password" >
+                        <label for="isenha">Senha</label>
+
+                    </div>
+
+                    <input type="submit" value="Entrar" >
+                    <a  class="botao" href="esqueci.html">Esqueci a Senha
+                    <i id="burguer" class="material-icons"> mail </i> </a>
+
+                </form>
 
             </div>
 
